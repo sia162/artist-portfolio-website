@@ -1,0 +1,65 @@
+
+/* CSS Using FLEX BOX */
+
+#gallery-board{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.image{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery img{
+  height: auto;
+  width: 550px;
+  margin: 10px 20px;
+}
+
+.galleryhead{
+  text-align: center;
+    font-size: 70px;
+
+}
+
+
+
+
+
+
+/* CSS Using Float */
+
+
+
+/* .imagika{
+   border: 1px solid; 
+    margin: 2px 3px;
+    padding: 5px 0px;
+    width: 110%;
+} 
+
+.imagika .gallery {
+        border: 1px solid;
+        display: inline-block;
+        margin: 10px -6px;
+        padding: 4px -7px;
+        width: 48%;
+        
+  }
+
+  .galleryhead{
+    border: 1px solid;
+    margin: 1px 144px;
+    padding: 36px 93px;
+    text-align: center;
+    font-size: 70px;
+    position: relative;
+    left: -64px;
+
+  } */

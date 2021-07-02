@@ -1,0 +1,93 @@
+/* header */
+
+
+#navbar ul li a {
+    text-decoration: none;
+    padding: 1px 8px;
+    font-size: 1rem;
+}
+
+
+
+/* <!-- SECTION 1 --> About Me --> */
+
+
+.bio {
+    margin: 8px 1px;
+    font-size: 11px;
+    padding: 0px;
+}
+
+section {
+    margin: 14px 21px;
+    padding: 1px;
+}
+
+#name {
+    font-size: 2.5rem;
+}
+
+
+
+/* <!-- SECTION 2-->  software part*/
+
+.softhead{
+    width: 100%;
+    font-size: 23px;
+}
+
+.details {
+    font-size: 20px;
+}
+
+.softwar{
+    padding: 0px 0px;
+    margin: 0px 0px;
+    display: flex;
+
+}
+ .software-box {
+    height: 250px;
+    width: 250px;
+} 
+
+
+
+
+
+/* <!-- SECTION 3 --> Education section */
+.edutotal {
+    margin: 1px 1px;
+    padding: 0px;
+}
+
+.e1 {
+    font-size: 14px;
+    margin: 5px 8px;
+    padding: 2px 23px;
+}
+
+.eduhead {
+    padding: 16px 0px;
+}
+
+
+
+
+
+/* <!-- gallery --> */
+
+#gallery{
+    overflow: hidden;
+}
+
+.galleryhead {
+    font-size: 36px;
+}
+
+.gallery img {
+    height: auto;
+    width: 250px;
+    margin: 5px 2px;
+}
+

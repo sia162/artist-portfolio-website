@@ -1,0 +1,180 @@
+
+/* HEADER --> flex box*/
+         
+* {
+    box-sizing: border-box;
+}
+
+body {
+     margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    /* background-color: rgb(224, 224, 224); */
+ }
+
+ html{
+     scroll-behavior: smooth;
+ }
+
+
+
+ #navbar{
+    position: relative;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo{
+    display: flex;
+}
+
+#navbar::before{
+    content: "";
+    position: absolute;
+    background-color: rgb(66, 65, 66);
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+ #navbar ul{ 
+    display: flex;
+    list-style: none;
+    margin: 4px;
+    padding: 1px;
+ } 
+
+ #navbar ul li a{ 
+     text-decoration: none;
+     padding: 10px 80px;
+     font-size: 1.1rem;
+     font-family: 'Quicksand', sans-serif;
+     color: rgb(8, 8, 8);   
+ }
+
+ #navbar ul li a:hover{ 
+     color: rgb(241, 233, 233); 
+     background-color: rgb(41, 40, 40);  
+ }
+
+ #navbar img{
+     height: 60px; 
+}
+
+#sitename{
+    font-family: 'Homemade Apple', cursive;
+    font-size: 1.3rem;
+    padding: 15px 4px;
+}
+
+
+
+/* home */
+
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 655px;
+}
+
+#name{
+    font-family: 'Poiret One', cursive;
+    font-size: 5rem;
+}
+
+
+#home::before{
+    content: "";
+    position: absolute;
+    background: url("P2.jpg") no-repeat center center/cover;
+    height: 756px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+
+
+
+    
+/* HEADER --> using float  
+
+
+         .left {
+            border: 1px solid red;
+            display: inline-block;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+
+
+        }
+
+        .left img {
+            width: 60px;
+        }
+
+        .left div {
+            display: inline-block;
+            position: relative;
+            top: -15px;
+            font-family: 'Homemade Apple', cursive;
+            font-size: 25px;
+        }
+
+
+        .right {
+            border: 1px solid yellow;
+            position: absolute;
+            top: 10px;
+            right: 5px;
+        }
+
+        .navbar li {
+            display: inline-block;
+        }
+
+        .navbar li a {
+            color: black;
+            text-decoration: none;
+            font-family: 'Arsenal';
+            font-size: 20px;
+            padding: 14px 35px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: rgb(131, 126, 131);
+        }
+
+        .name {
+            border: 1px solid yellow;
+            font-family: 'Quicksand', sans-serif;
+            font-size: 4vw;
+            padding: 2px 2px;
+            margin: 310px 116px;
+            position: absolute;
+            top: 10%;
+            left: 11%;
+            transform: translate(-50%, -50%);
+        }
+
+        #image {
+            width: 100%;
+        }
+
+        .container {
+            position: relative;
+        }
+
+         */

@@ -1,0 +1,53 @@
+/* SECTION 4 */
+
+.contactbelow{
+    /* border: 1px solid; */
+    margin: -21px -19px;
+    padding: 68px 1px;
+    height: 293px;
+    /* background-color: aquamarine; */
+    /* background-image: url("c2.jpg");
+    background-size: 1483px 295px;
+    background-repeat: no-repeat; */
+    
+}
+
+.contactbelow p{
+    /* border: 1px solid; */
+    margin: 7px 1px;
+    padding: 61px 2px;
+    display: inline-block;
+    position: relative;
+    left: 145px;
+    bottom: 27px;
+    text-align: left;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.contactbelow button{
+    /* border: 1px solid; */
+    padding: 5px 8px;
+    margin: 10px 5px;
+    position: relative;
+    left: 290px;
+    bottom: 38px;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(241, 226, 241);
+    border-radius: 1px;
+    
+
+}
+.contactbelow button a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.contactbelow button:hover{
+    background-color: rgb(231, 231, 231);
+}
+
+

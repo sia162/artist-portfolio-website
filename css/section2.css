@@ -1,0 +1,125 @@
+#software-board{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.software-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        
+}
+
+.software-box{
+    position: relative;
+    text-align: center;
+    margin: 5px;
+    height: 300px;
+    width: 300px;
+    /* border: 1px solid; */
+    /* color: rgb(25, 119, 201); */
+}
+
+.software-box img{
+    margin: 5px;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: aliceblue; 
+  font-size: 2rem;
+}
+
+.softhead{
+    font-size: 44px;
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+}
+
+
+
+/* SECTION 2 
+
+.software {
+    border: 1px solid blue;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+
+.d1 {
+    display: inline-block;
+    border: 1px solid black;
+    margin: 11px 15px;
+    padding: 10px 10px;
+    width: 31%;
+    height: 275px;
+}
+
+#p1 {
+    background-image: url("g1.jpg");
+    background-size: 439px 273px;
+    opacity: 0.83;
+}
+
+
+#p2 {
+    background-image: url("g2.jpg");
+    background-size: 439px 273px;
+    opacity: 0.83;
+}
+
+#p3 {
+    background-image: url("g3.jpg");
+    background-size: 439px 273px;
+    opacity: 0.83;
+}
+
+#p4 {
+    background-image: url("g4.jpg");
+    background-size: 439px 273px;
+    opacity: 0.83;
+}
+
+#p5 {
+    background-image: url("g5.jpg");
+    background-size: 439px 273px;
+    opacity: 0.83;
+}
+
+#p6 {
+    background-image: url("g6.jpg");
+    background-size: 439px 273px;
+    opacity: 0.83;
+}
+
+.softhead {
+    border: 1px solid;
+    margin: auto;
+    width: 700px;
+    text-align: center;
+    font-size: 44px;
+    font-style: normal;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.text {
+    border: 1px solid white;
+    padding: 2px 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    position: relative;
+    top: 120px;
+    text-align: center;
+    font-size: 40px;
+}
+
+SECTION 2 */
